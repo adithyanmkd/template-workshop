@@ -1,0 +1,11 @@
+body {
+  background-color: rgb(247, 247, 252);
+  margin: 0;
+  padding: 0;
+}
+.nav-text {
+  color: #282c3f;
+}
+.nav-row {
+  background-color: white;
+}
