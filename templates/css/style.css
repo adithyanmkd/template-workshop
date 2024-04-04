@@ -3,9 +3,28 @@ body {
   margin: 0;
   padding: 0;
 }
+.scroll-container::-webkit-scrollbar {
+  width: 0px;
+}
+/* navbar style */
 .nav-text {
   color: #282c3f;
 }
 .nav-row {
   background-color: white;
 }
+/* navbar style ended */
+
+/* scroll image */
+div.scroll-container {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+  width: 180px;
+  background-color: rgb(247, 247, 252);
+}
+/* scroll image ended */
