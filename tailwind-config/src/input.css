@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.filter-font {
+  @apply text-gray-800 hover:text-blue-600 active:text-blue-700;
+}
+.card-list-property {
+  @apply bg-slate-100 border border-gray-400 hover:border-blue-800 rounded-lg shadow-xl max-w-52 min-w-52;
+}
