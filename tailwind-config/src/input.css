@@ -14,16 +14,16 @@
 
 /* element styleing */
 
-ul li {
+.playlist-ul li {
   @apply md:flex items-center gap-4 p-3 bg-gray-200 cursor-pointer rounded-md mb-2;
 }
-ul li:last-child {
+.playlist-ul li:last-child {
   @apply mb-0;
 }
-ul li video {
+.playlist-ul li video {
   @apply w-full sm:w-full md:w-40 lg:w-28 rounded-md;
 }
-ul li h2 {
+.playlist-ul li h2 {
   @apply text-base sm:text-lg text-center md:text-left text-gray-700;
 }
 nav ul a {
