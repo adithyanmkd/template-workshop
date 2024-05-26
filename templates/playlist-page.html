@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Playlist</title>
+    <link rel="stylesheet" href="../tailwind-config/src/output.css" />
+  </head>
+  <body class="box-border p-5 bg-cyan-200">
+    <div class="container m-28 mx-auto flex flex-wrap items-start gap-4">
+      <!-- main video -->
+      <div class="px-5 pt-5 pb-3 flex-1 basis-[700px] rounded-lg bg-white">
+        <video
+          class="w-full rounded-lg mb-2"
+          src="videos/car-mooving.mp4"
+          controls
+          loop
+        ></video>
+        <h2 class="text-xl">Car Mooving</h2>
+      </div>
+      <!-- main video ended-->
+      <!-- video list -->
+      <ul
+        class="flex-1 basis-[350px] h-[500px] 2xl:h-[574px] overflow-y-scroll p-5 rounded-lg bg-white custom-scrollbar"
+      >
+        <li class="item-list active">
+          <video src="videos/car-mooving.mp4"></video>
+          <h2>Car Mooving</h2>
+        </li>
+        <li>
+          <video src="videos/car-mooving.mp4"></video>
+          <h2>Car Mooving</h2>
+        </li>
+        <li>
+          <video src="videos/car-mooving.mp4"></video>
+          <h2>Car Mooving</h2>
+        </li>
+        <li>
+          <video src="videos/car-mooving.mp4"></video>
+          <h2>Car Mooving</h2>
+        </li>
+        <li>
+          <video src="videos/car-mooving.mp4"></video>
+          <h2>Car Mooving</h2>
+        </li>
+        <li>
+          <video src="videos/car-mooving.mp4"></video>
+          <h2>Car Mooving</h2>
+        </li>
+        <li>
+          <video src="videos/car-mooving.mp4"></video>
+          <h2>Car Mooving</h2>
+        </li>
+      </ul>
+      <!-- video list ended -->
+    </div>
+  </body>
+</html>
