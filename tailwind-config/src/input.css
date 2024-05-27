@@ -39,7 +39,7 @@ nav ul a {
   @apply text-gray-800 hover:text-blue-600 active:text-blue-700;
 }
 .card-list-property {
-  @apply bg-slate-100 border border-gray-400 hover:border-blue-800 rounded-lg shadow-xl max-w-52 min-w-52;
+  @apply bg-slate-100 border border-gray-400 hover:border-blue-800 rounded-lg shadow-xl max-w-40 min-w-40;
 }
 .custom-box {
   @apply px-[5%];
@@ -50,3 +50,11 @@ nav ul a {
 .custom-text-normal p {
   @apply font-normal;
 }
+
+/* tutorial page styles */
+
+.tutorial-page-card {
+  @apply min-w-[180px] min-h-[190px] hover:-translate-y-0.5 grid border box-border border-gray-200 shadow-lg rounded-md p-5 bg-white;
+}
+
+/* turorial page style ended */
