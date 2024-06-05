@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.word-md {
+  word-spacing: 0.2em;
+}
+
 .custom-scrollbar::-webkit-scrollbar {
   @apply w-2;
 }
@@ -27,7 +31,7 @@
   @apply text-base sm:text-lg text-center md:text-left text-gray-700;
 }
 nav ul a {
-  @apply hover:font-bold;
+  @apply hover:font-bold text-blue-950;
 }
 /* element styleing eneded */
 

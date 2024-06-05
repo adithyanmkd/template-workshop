@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>profile page</title>
+    <link rel="stylesheet" href="../tailwind-config/src/output.css" />
+  </head>
+  <body>
+    <div class="w-screen h-screen flex">
+      <!-- side navbar -->
+      <div class="w-[15%] bg-blue-950">
+        <ul class="py-4 px-4 text-white flex flex-col items-center h-full">
+          <li class="mb-6">
+            <a
+              href="#"
+              class="flex px-4 py-2 rounded-lg mr-auto space-x-4 items-center justify-center"
+            >
+              <div>
+                <img class="w-6" src="icons/paw_1.png" alt="" />
+              </div>
+              <div><p class="font-black text-xl">Network</p></div>
+            </a>
+          </li>
+          <li class="w-full">
+            <a
+              href="index.html"
+              class="flex bg-[#708EBE] w-full px-4 py-2 rounded-lg mr-auto space-x-4 items-center text-sm"
+            >
+              <div>
+                <img class="w-[18px]" src="icons/home.png" alt="" />
+              </div>
+              <div><p>Home</p></div>
+            </a>
+          </li>
+          <li class="w-full">
+            <a
+              href="course-page.html"
+              class="flex w-full px-4 py-2 rounded-lg mr-auto space-x-4 items-center text-sm"
+            >
+              <div>
+                <img class="w-[18px]" src="icons/graduation-cap.png" alt="" />
+              </div>
+              <div><p>Courses</p></div>
+            </a>
+          </li>
+          <li class="w-full">
+            <a
+              href="tutorial-selection-page.html"
+              class="flex w-full px-4 py-2 rounded-lg mr-auto space-x-4 items-center text-sm"
+            >
+              <div>
+                <img class="w-[18px]" src="icons/play-alt.png" alt="" />
+              </div>
+              <div><p>Tutorial</p></div>
+            </a>
+          </li>
+          <li class="mt-auto mr-auto">
+            <a
+              href="#"
+              class="flex px-2 py-2 rounded-lg mr-auto space-x-4 items-center"
+            >
+              <div>
+                <img class="w-[18px]" src="icons/logout.png" alt="" />
+              </div>
+              <div><p>Logout</p></div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- side navbar -->
+      <div class="w-[60%] bg-gray-300">
+        <div class="grid grid-cols-2 w-full gap-4 px-3 mt-6">
+          <div>
+            <h1 class="text-2xl font-black text-gray-900">Dashboard</h1>
+          </div>
+          <div class="flex justify-end">
+            <div
+              class="flex bg-slate-100 space-x-4 w-72 px-3 py-1 rounded-md items-center hover:outline hover:outline-1 hover:outline-gray-700"
+            >
+              <div class="cursor-pointer">
+                <img class="w-[18px]" src="icons/search.png" alt="" />
+              </div>
+              <div>
+                <input
+                  class="outline-none w-56 bg-slate-100 text-sm"
+                  type="text"
+                  name="search"
+                  id="search"
+                  placeholder="Search for course.."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="bg-[#708EBE] col-span-2 h-36 rounded-lg flex">
+            <div class="mx-4 mt-2 text-white">
+              <h1 class="font-semibold text-2xl leading-relaxed">
+                Welcome back, Amal
+              </h1>
+              <p class="text-xs leading-5 word-md font-light mb-2">
+                Your progress of this week is awesome, keep it up and let's
+                <br />
+                get more point reward
+              </p>
+              <a
+                class="px-2 py-[6px] text-xs border bg-white text-black rounded-lg"
+                href="course-page.html"
+              >
+                View course
+              </a>
+            </div>
+            <div class="ml-auto mr-10">
+              <img
+                class="w-56"
+                src="images/illustrations/Learning-cuate-cropped.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-span-2 h-full bg-purple-300 rounded-md"></div>
+        </div>
+      </div>
+      <div class="w-[25%] bg-rose-900"></div>
+    </div>
+  </body>
+</html>
