@@ -62,3 +62,7 @@ nav ul a {
 }
 
 /* turorial page style ended */
+
+.work-card {
+  @apply flex items-center space-x-4 hover:bg-[#d4dff0] rounded-lg cursor-pointer transition duration-300;
+}
